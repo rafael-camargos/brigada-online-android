@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brigada \nOn-line</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_ocorrencia">Ocorrência</string>
+    <string name="title_activity_brigadistas">Brigadistas</string>
+    <string name="title_activity_todas_ocorrencias">Todas ocorrências</string>
+    <string name="loading">Carregando...</string>
+
+</resources>
