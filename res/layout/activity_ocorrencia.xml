@@ -1,0 +1,135 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".OcorrenciaActivity" >
+
+    <TextView
+        android:id="@+id/label_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número de identificação:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading" />
+
+    <TextView
+        android:id="@+id/label_situacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Situação: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/text_situacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading" />
+
+    <TextView
+        android:id="@+id/label_gravidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gravidade: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/text_gravidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading" />
+
+    <TextView
+        android:id="@+id/label_descricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descrição da ocorrência: "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/text_descricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading" />
+
+    <TextView
+        android:id="@+id/label_pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ponto de Resgaste:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/text_pr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading" />
+
+    <TextView
+        android:id="@+id/label_dth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ocorrência registrada em:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/text_dth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loading" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="40dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+        
+        
+        <ImageButton
+            android:id="@+id/participarOcorrencia"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/yes" />
+
+        <TextView
+            android:id="@+id/textParticiparOc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/participarOcorrencia" />
+        
+        <ImageButton
+            android:id="@+id/sairOcorrencia"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@null"
+            android:scaleType="fitCenter"
+            android:src="@drawable/no" 
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:id="@+id/textSairOc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/sairOcorrencia" />
+    </LinearLayout>
+
+</TableLayout>

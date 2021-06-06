@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Brigada \nOn-line</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_ocorrencia">Ocorrência</string>
+    <string name="title_activity_brigadistas">Brigadistas</string>
+    <string name="title_activity_todas_ocorrencias">Todas ocorrências</string>
+    <string name="loading">Carregando...</string>
+    <string name="participarOcorrencia">Participar da \nOcorrência</string>
+    <string name="sairOcorrencia">Sair da \nOcorrência</string>
+    <string name="title_activity_activity_drawer">ActivityDrawer</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="menu_esquerdo">
+        <item>Ocorrências</item>
+        <item>Todos usuários</item>
+        <item>Sair</item>
+    </string-array>
+
+</resources>
