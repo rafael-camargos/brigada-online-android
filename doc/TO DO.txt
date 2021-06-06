@@ -1,0 +1,6 @@
+Checar Internet ao entrar OU salvar dados numa DB interna
+checar Location? ao entrar
+
+Relacionar usuários com ocorrências
+Adicionar campo de área dos usuários -> Fazer lista de áreas de atuação
+Mudar som da notificação

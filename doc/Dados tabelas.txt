@@ -1,0 +1,11 @@
+Usuários:
+nome - Nome Completo
+np - Número do NP
+login - login gerdau ou um login qualquer
+senha - senha para login
+tel - Telefone celular (99) 99999-9999
+status - 0 (Desconhecido) 1 (Fora da Usina) 2 (Na usina)
+tipo - 0 (usuário comum) 1 (brigadista) 2 (administrador do sistema)
+atualizacao - DATETIME ultima vez que atualizou a posição
+
+Ocorrências:

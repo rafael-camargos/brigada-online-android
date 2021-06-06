@@ -1,0 +1,14 @@
+Brigada Online
+
+Funcionalidades do APK:
+
+Ver os brigadistas que estão no usina: através do sistema de catraca
+Ver evento/chamados de segurança que estão acontecendo
+Receber notificações dos novos eventos/chamados de segurança
+Possibilidade de aceitar chamado de colaboração
+Tela para login (uma vez)
+
+Software pra portaria:
+Incluir um evento/chamado de segurança com o PR
+Tabela relacionando NPs e brigadistas
+Cadastro do login dos brigadistas

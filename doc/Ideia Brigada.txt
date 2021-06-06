@@ -1,0 +1,5 @@
+Blz Lucas? Viu as imagens do aplicativo e do Software?
+
+O que a gente implementou até então foi o seguinte: um software que ficaria na portaria e o aplicativo Android pro celular dos usuários.
+
+Onde, o software possui as seguintes funcionalidades: registro e atualização das ocorrências (Ponto de resgate, gravidade e descrição da ocorrência), cadastro e monitoramento dos usuários (Nome, CP, Usuário - padronizar o mesmo login da gerdau, Senha, Celular ou tel. fixo e tipo do usuário - Brigadista ou não).
